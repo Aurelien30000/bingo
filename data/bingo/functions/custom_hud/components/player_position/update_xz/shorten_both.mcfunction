@@ -142,7 +142,7 @@ execute unless score $custom_hud/player_pos.abs_z bingo.tmp matches 1000000.. if
 execute if score $custom_hud/player_pos.x bingo.tmp matches ..-1 run scoreboard players operation $custom_hud/player_pos.int_x bingo.tmp *= -1 bingo.const
 execute if score $custom_hud/player_pos.z bingo.tmp matches ..-1 run scoreboard players operation $custom_hud/player_pos.int_z bingo.tmp *= -1 bingo.const
 
-data modify storage io.bingo:custom_hud component.textComponent set value '[{"storage": "tmp.bingo:custom_hud", "nbt": "xComp", "interpret": true}, " ", {"storage": "tmp.bingo:custom_hud", "nbt": "zComp", "interpret": true}]'
+data modify storage io.bingo:custom_hud component.textComponent set value '[{"storage": "tmp.bingo:custom_hud", "nbt": "xComp", "interpret": true}, " | ", {"storage": "tmp.bingo:custom_hud", "nbt": "zComp", "interpret": true}]'
 
 data modify storage tmp.bingo:custom_hud xComp set value '[{"score": {"name": "$custom_hud/player_pos.int_x", "objective": "bingo.tmp"}}, ".", {"storage": "tmp.bingo:custom_hud", "nbt": "xFillerZeros", "interpret": true}, {"score": {"name": "$custom_hud/player_pos.dec_x", "objective": "bingo.tmp"}}, {"storage": "tmp.bingo:custom_hud", "nbt": "xChar"}]'
 execute if score $custom_hud/player_pos.abs_x bingo.tmp matches ..999999 if score $custom_hud/player_pos.removed_x bingo.tmp matches 3 run data modify storage tmp.bingo:custom_hud xComp set value '[{"score": {"name": "$custom_hud/player_pos.int_x", "objective": "bingo.tmp"}}, {"storage": "tmp.bingo:custom_hud", "nbt": "xChar"}]'
