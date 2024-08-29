@@ -6,7 +6,7 @@
 # @handles #fetchr:new_player
 
 recipe give @s *
-scoreboard players set @s fetchr.card_position 0
+scoreboard players set @s fetchr.card_position 4
 #NEUN_SCRIPT unless realms
 tp ~ 1 ~
 

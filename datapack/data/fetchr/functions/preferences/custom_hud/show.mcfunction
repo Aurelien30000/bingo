@@ -54,9 +54,9 @@ execute if score @s fetchr.pref matches 11 run tellraw @s ["\n\n\n\n\n=== ", {"t
 data modify storage fetchr:custom_hud players append from storage fetchr:custom_hud currentPlayer
 data modify storage fetchr:custom_hud players append from storage tmp.fetchr:preferences/hud skippedHuds[]
 
-execute if score @s fetchr.pref matches 67 run scoreboard players set @s fetchr.card_position 0
-execute if score @s fetchr.pref matches 68 run scoreboard players set @s fetchr.card_position 8
-execute if score @s fetchr.pref matches 69 run scoreboard players set @s fetchr.card_position 9
+execute if score @s fetchr.pref matches 67 run scoreboard players set @s fetchr.card_position 4
+execute if score @s fetchr.pref matches 68 run scoreboard players set @s fetchr.card_position 12
+execute if score @s fetchr.pref matches 69 run scoreboard players set @s fetchr.card_position 13
 execute if score @s fetchr.pref matches 67..69 run scoreboard players set $preferences.next_page fetchr.tmp 11
 execute if score @s fetchr.pref matches 67..69 run scoreboard players set @s fetchr.update_hud 1
 

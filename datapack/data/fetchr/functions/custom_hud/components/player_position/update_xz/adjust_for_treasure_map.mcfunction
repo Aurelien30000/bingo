@@ -9,4 +9,4 @@
 scoreboard players operation $custom_hud/player_pos.x fetchr.tmp %= 16 fetchr.const
 scoreboard players operation $custom_hud/player_pos.z fetchr.tmp %= 16 fetchr.const
 
-data modify storage io.fetchr:custom_hud component.textComponent set value '[{"score": {"name": "$custom_hud/player_pos.x", "objective": "fetchr.tmp"}, "color": "yellow"}, " ", {"score": {"name": "$custom_hud/player_pos.z", "objective": "fetchr.tmp"}}]'
+data modify storage io.fetchr:custom_hud component.textComponent set value '[{"score": {"name": "$custom_hud/player_pos.x", "objective": "fetchr.tmp"}, "color": "yellow"}, " | ", {"score": {"name": "$custom_hud/player_pos.z", "objective": "fetchr.tmp"}}]'

@@ -76,4 +76,4 @@ execute unless score $custom_hud/player_pos.abs_x fetchr.tmp matches 1000000.. i
 
 execute if score $custom_hud/player_pos.x fetchr.tmp matches ..-1 run scoreboard players operation $custom_hud/player_pos.int_x fetchr.tmp *= -1 fetchr.const
 
-data modify storage io.fetchr:custom_hud component.textComponent set value '[{"score": {"name": "$custom_hud/player_pos.int_x", "objective": "fetchr.tmp"}}, ".", {"storage": "tmp.fetchr:custom_hud", "nbt": "xFillerZeros", "interpret": true}, {"score": {"name": "$custom_hud/player_pos.dec_x", "objective": "fetchr.tmp"}}, {"storage": "tmp.fetchr:custom_hud", "nbt": "xChar"}, " ", {"score": {"name": "$custom_hud/player_pos.z", "objective": "fetchr.tmp"}}]'
+data modify storage io.fetchr:custom_hud component.textComponent set value '[{"score": {"name": "$custom_hud/player_pos.int_x", "objective": "fetchr.tmp"}}, ".", {"storage": "tmp.fetchr:custom_hud", "nbt": "xFillerZeros", "interpret": true}, {"score": {"name": "$custom_hud/player_pos.dec_x", "objective": "fetchr.tmp"}}, {"storage": "tmp.fetchr:custom_hud", "nbt": "xChar"}, " | ", {"score": {"name": "$custom_hud/player_pos.z", "objective": "fetchr.tmp"}}]'

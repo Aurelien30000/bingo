@@ -9,7 +9,7 @@ scoreboard players operation $custom_hud/player_pos.x fetchr.tmp %= 16 fetchr.co
 scoreboard players operation $custom_hud/player_pos.z fetchr.tmp %= 16 fetchr.const
 
 data modify storage io.fetchr:custom_hud component set from storage fetchr:custom_hud currentPlayer.components[{id: "fetchr:player_chunk_position"}]
-data modify storage io.fetchr:custom_hud component merge value {textComponent:'[{"score": {"name": "$custom_hud/player_pos.x", "objective": "fetchr.tmp"}}, " ", {"score": {"name": "$custom_hud/player_pos.z", "objective": "fetchr.tmp"}}]', changed: true}
+data modify storage io.fetchr:custom_hud component merge value {textComponent:'[{"score": {"name": "$custom_hud/player_pos.x", "objective": "fetchr.tmp"}}, " | ", {"score": {"name": "$custom_hud/player_pos.z", "objective": "fetchr.tmp"}}]', changed: true}
 
 scoreboard players set $custom_hud/width.padding fetchr.io 62
 execute if score $custom_hud/player_pos.x fetchr.tmp matches 10.. run scoreboard players remove $custom_hud/width.padding fetchr.io 6

@@ -756,6 +756,14 @@ forceload add 0 0
 		# @internal
 		scoreboard objectives add fetchr.yellow_display dummy {"translate": "fetchr.scoreboard.header"}
 		#NEUN_SCRIPT end
+
+	    # SPECIFIC - start
+		#>
+		# Display objective for the health
+		#
+		# @internal
+		scoreboard objectives add fetchr.health health {"translate": "fetchr.scoreboard.health"}
+	    # SPECIFIC - end
 	#endregion
 
 	#region trigger objectives
@@ -1345,6 +1353,9 @@ forceload add 0 0
 	scoreboard objectives setdisplay sidebar.team.red fetchr.red_display
 	scoreboard objectives setdisplay sidebar.team.white fetchr.white_display
 	scoreboard objectives setdisplay sidebar.team.yellow fetchr.yellow_display
+	# SPECIFIC - start
+	scoreboard objectives setdisplay list fetchr.health
+	# SPECIFIC - end
 #endregion
 
 # Create overworld resourcepack check
@@ -1365,7 +1376,7 @@ forceload add 0 0
 	gamerule doTraderSpawning false
 	gamerule disableElytraMovementCheck true
 	gamerule doPatrolSpawning false
-	gamerule maxCommandChainLength 131072
+	gamerule maxCommandChainLength 2147483647
 	difficulty easy
 
 # setup teams

@@ -26,11 +26,11 @@ def main():
 	if os.path.exists(target):
 		shutil.rmtree(target)
 
-	resourcepack_config : dict | None = config.get("resourcepack")
-	datapack_config: dict | None = config.get("datapack")
+	resourcepack_config : dict  = config.get("resourcepack")
+	datapack_config: dict  = config.get("datapack")
 
 	mc_version_info = None
-	version_id: str | None = config.get("mc")
+	version_id: str  = config.get("mc")
 
 	if version_id != None:
 		version_manifest : dict = requests.get("https://piston-meta.mojang.com/mc/game/version_manifest_v2.json").json()
@@ -42,7 +42,7 @@ def main():
 			minecraft_jar = zipfile.ZipFile(io.BytesIO(requests.get(version_info["downloads"]["client"]["url"]).content))
 			minecraft_jar.extract("version.json", f"{target}{os.sep}tmp")
 			with open(f"{target}{os.sep}tmp{os.sep}version.json", "r", encoding="utf-8") as version_info_file:
-				mc_version_info: dict | None = json.loads(version_info_file.read())
+				mc_version_info: dict  = json.loads(version_info_file.read())
 			os.remove(f"{target}{os.sep}tmp{os.sep}version.json")
 
 	name=config.get("name")
@@ -94,7 +94,7 @@ def main():
 			except:
 				shutil.copy2(path, out_path)
 
-	variants: dict | None = config.get("versions")
+	variants: dict  = config.get("versions")
 	if variants == None:
 		variants = {}
 	variants[""] = None
@@ -143,11 +143,11 @@ def main():
 	#shutil.rmtree(f"{target}{os.sep}tmp")
 	print(f"minified {lines} lines")
 
-def iterate_files(config: dict, source: str, target: str, mc_version_info: dict | None):
+def iterate_files(config: dict, source: str, target: str, mc_version_info: dict ):
 	requested_rp_sha = []
 	pack_formats_for_overlay = []
 	remove_extensions = config.get("remove_file_types")
-	versionDict: dict | None = config.get("versions")
+	versionDict: dict  = config.get("versions")
 	if versionDict == None:
 		versionDict = {}
 	versions:list[tuple[str,dict|None]] = list(versionDict.items())
@@ -191,7 +191,7 @@ def iterate_files(config: dict, source: str, target: str, mc_version_info: dict 
 						os.makedirs(out_dir, exist_ok=True)
 						shutil.copy2(file_path, out_path)
 					else:
-						file_content: str | None = None
+						file_content: str  = None
 						try:
 							with open(file_path, "r", encoding="utf-8") as file:
 								file_content = file.read()
@@ -282,7 +282,7 @@ def replace_variables(content: str, file_path: str, config, requested_rp_sha: li
 		indexDiff += len(replace) - match.end() + match.start()
 	return content
 
-def get_variable(variable: str, config: dict, requested_rp_sha: list | None = None, file_path: str | None = None):
+def get_variable(variable: str, config: dict, requested_rp_sha: list  = None, file_path: str  = None):
 	vars = config.get("vars")
 
 	if variable == "version":
@@ -297,7 +297,7 @@ def get_variable(variable: str, config: dict, requested_rp_sha: list | None = No
 		return variable
 	return variable
 
-def handle_nbt(nbt_tag, file_path: str, config: dict, mc_version_info: dict | None, key: str | None = None):
+def handle_nbt(nbt_tag, file_path: str, config: dict, mc_version_info: dict , key: str  = None):
 	if isinstance(nbt_tag, dict):
 		if file_path.endswith("level.dat") and key == "Version" and mc_version_info != None:
 			nbt_tag["Id"].value = mc_version_info["world_version"]
