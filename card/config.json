@@ -1,0 +1,703 @@
+{
+  "arrow": {
+    "categories": [
+      "fetchr:skeleton"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "blaze_rod": {
+    "categories": [
+      "fetchr:blaze"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "bone": {
+    "categories": [
+      "fetchr:skeleton"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "brewing_stand": {
+    "categories": [
+      "fetchr:potion",
+      "fetchr:fortress"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "brown_mushroom": {
+    "categories": [
+      "fetchr:mushroom"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "chain": {
+    "categories": [
+      "fetchr:iron"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "cooked_porkchop": {
+    "categories": [
+      "fetchr:hoglin"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "crimson_fungus": {
+    "categories": [
+      "fetchr:crimson"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "crimson_hanging_sign": {
+    "categories": [
+      "fetchr:crimson"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "crimson_roots": {
+    "categories": [
+      "fetchr:crimson"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "crimson_sign": {
+    "categories": [
+      "fetchr:crimson"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "crossbow": {
+    "categories": [
+      "fetchr:misc"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "diamond": {
+    "categories": [
+      "fetchr:diamond"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "diamond_axe": {
+    "categories": [
+      "fetchr:diamond_tool"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "diamond_shovel": {
+    "categories": [
+      "fetchr:diamond_tool"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "enchanted_book": {
+    "categories": [
+      "fetchr:treasure"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "ender_eye": {
+    "categories": [
+      "fetchr:enderman"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "ender_pearl": {
+    "categories": [
+      "fetchr:enderman"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "fire_charge": {
+    "categories": [
+      "fetchr:piglin"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "flint_and_steel": {
+    "categories": [
+      "fetchr:flint"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "ghast_tear": {
+    "categories": [
+      "fetchr:ghast"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "glass_bottle": {
+    "categories": [
+      "fetchr:potion"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "gold_ingot": {
+    "categories": [
+      "fetchr:gold"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "gold_nugget": {
+    "categories": [
+      "fetchr:gold"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "golden_apple": {
+    "categories": [
+      "fetchr:treasure"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "golden_axe": {
+    "categories": [
+      "fetchr:golden_tool"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "golden_boots": {
+    "categories": [
+      "fetchr:golden_armor"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "golden_chestplate": {
+    "categories": [
+      "fetchr:golden_armor"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "golden_helmet": {
+    "categories": [
+      "fetchr:golden_armor"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "golden_horse_armor": {
+    "categories": [
+      "fetchr:treasure"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "golden_leggings": {
+    "categories": [
+      "fetchr:golden_armor"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "golden_shovel": {
+    "categories": [
+      "fetchr:golden_tool"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "iron_ingot": {
+    "categories": [
+      "fetchr:iron"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "iron_nugget": {
+    "categories": [
+      "fetchr:iron"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "lava_bucket": {
+    "categories": [
+      "fetchr:misc"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "leather": {
+    "categories": [
+      "fetchr:hoglin"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "magma_cream": {
+    "categories": [
+      "fetchr:magma_cream"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "nether_brick": {
+    "categories": [
+      "fetchr:fortress"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "nether_star": {
+    "categories": [
+      "fetchr:wither"
+    ],
+    "item-type": "item",
+    "weight": 1
+  },
+  "nether_wart": {
+    "categories": [
+      "fetchr:nether_wart"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "netherite_axe": {
+    "categories": [
+      "fetchr:netherite"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "netherite_ingot": {
+    "categories": [
+      "fetchr:netherite"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "netherite_scrap": {
+    "categories": [
+      "fetchr:netherite"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "netherite_shovel": {
+    "categories": [
+      "fetchr:netherite"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "netherite_upgrade_smithing_template": {
+    "categories": [
+      "fetchr:netherite"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "porkchop": {
+    "categories": [
+      "fetchr:hoglin"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "quartz": {
+    "categories": [
+      "fetchr:quartz"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "red_mushroom": {
+    "categories": [
+      "fetchr:mushroom"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "shears": {
+    "categories": [
+      "fetchr:misc"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "soul_campfire": {
+    "categories": [
+      "fetchr:soul_light"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "spectral_arrow": {
+    "categories": [
+      "fetchr:piglin"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "string": {
+    "categories": [
+      "fetchr:piglin"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "warped_fungus": {
+    "categories": [
+      "fetchr:warped"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "warped_hanging_sign": {
+    "categories": [
+      "fetchr:warped"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "warped_roots": {
+    "categories": [
+      "fetchr:warped"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "warped_sign": {
+    "categories": [
+      "fetchr:warped"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "ancient_debris": {
+    "categories": [
+      "fetchr:netherite"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "bone_block": {
+    "categories": [
+      "fetchr:soul_block"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "chiseled_nether_bricks": {
+    "categories": [
+      "fetchr:fortress"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "chiseled_polished_blackstone": {
+    "categories": [
+      "fetchr:bastion"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "chiseled_quartz_block": {
+    "categories": [
+      "fetchr:quartz"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "cracked_nether_bricks": {
+    "categories": [
+      "fetchr:fortress"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "cracked_polished_blackstone_bricks": {
+    "categories": [
+      "fetchr:bastion"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "crimson_fence_gate": {
+    "categories": [
+      "fetchr:crimson"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "crimson_nylium": {
+    "categories": [
+      "fetchr:crimson"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "crimson_stem": {
+    "categories": [
+      "fetchr:crimson"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "crying_obsidian": {
+    "categories": [
+      "fetchr:obsidian"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "diamond_block": {
+    "categories": [
+      "fetchr:diamond"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "ender_chest": {
+    "categories": [
+      "fetchr:treasure"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "gilded_blackstone": {
+    "categories": [
+      "fetchr:bastion"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "glowstone": {
+    "categories": [
+      "fetchr:light"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "gold_block": {
+    "categories": [
+      "fetchr:gold"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "gravel": {
+    "categories": [
+      "fetchr:flint"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "iron_block": {
+    "categories": [
+      "fetchr:iron"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "lantern": {
+    "categories": [
+      "fetchr:soul_light"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "lodestone": {
+    "categories": [
+      "fetchr:treasure"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "magma_block": {
+    "categories": [
+      "fetchr:basalt"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "nether_bricks": {
+    "categories": [
+      "fetchr:fortress"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "nether_gold_ore": {
+    "categories": [
+      "fetchr:ore"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "nether_quartz_ore": {
+    "categories": [
+      "fetchr:ore"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "nether_wart_block": {
+    "categories": [
+      "fetchr:nether_wart"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "obsidian": {
+    "categories": [
+      "fetchr:obsidian"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "polished_basalt": {
+    "categories": [
+      "fetchr:basalt"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "quartz_block": {
+    "categories": [
+      "fetchr:quartz"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "quartz_pillar": {
+    "categories": [
+      "fetchr:quartz"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "red_nether_bricks": {
+    "categories": [
+      "fetchr:fortress"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "respawn_anchor": {
+    "categories": [
+      "fetchr:treasure"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "shield": {
+    "categories": [
+      "fetchr:misc"
+    ],
+    "item-type": "item",
+    "weight": -1
+  },
+  "shroomlight": {
+    "categories": [
+      "fetchr:light"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "soul_lantern": {
+    "categories": [
+      "fetchr:soul_light"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "soul_sand": {
+    "categories": [
+      "fetchr:soul_block"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "soul_soil": {
+    "categories": [
+      "fetchr:soul_block"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "soul_torch": {
+    "categories": [
+      "fetchr:soul_light"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "twisting_vines": {
+    "categories": [
+      "fetchr:warped"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "warped_fence_gate": {
+    "categories": [
+      "fetchr:warped"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "warped_nylium": {
+    "categories": [
+      "fetchr:warped"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "warped_stem": {
+    "categories": [
+      "fetchr:warped"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "warped_wart_block": {
+    "categories": [
+      "fetchr:nether_wart"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "weeping_vines": {
+    "categories": [
+      "fetchr:crimson"
+    ],
+    "item-type": "block",
+    "weight": -1
+  },
+  "wither_skeleton_skull": {
+    "categories": [
+      "fetchr:wither"
+    ],
+    "item-type": "block",
+    "weight": 9
+  }
+}
